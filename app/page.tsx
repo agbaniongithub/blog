@@ -15,7 +15,7 @@ export default function Home() {
             Hello, I&apos;m David
           </h1>
           <p className="max-w-[42rem] mx-auto text-muted-foreground sm:text-xl text-balance">
-            Welcome to my digital space. I'm a Software Engineer.
+            Welcome to my digital space. I&apos;m a Software Engineer.
           </p>
           <div className="flex flex-col gap-4 justify-center sm:flex-row">
             <Link
