@@ -2,7 +2,6 @@
 
 import { siteConfig } from "@/config/site";
 import Image from "next/image";
-import { motion } from "framer-motion";
 import React from "react";
 
 
@@ -20,7 +19,7 @@ export default function Project() {
         {
           siteConfig.projectsArray.map((project, index) => (
             <React.Fragment key={index}>
-              <motion.div
+              <div
       className="group mb-3 sm:mb-8 last:mb-0"
       >
       <a href={project.siteUrl} target="_blank">
@@ -65,7 +64,7 @@ export default function Project() {
         
       </section>
       </a>
-        </motion.div>
+        </div>
             </React.Fragment>
           ))
         }
