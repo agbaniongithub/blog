@@ -34,7 +34,16 @@ export const siteConfig = {
     tags: ["HTML", "CSS", "Javascript"],
     githubUrl: "https://github.com/agbaniongithub/fancy-counter",
     siteUrl: "https://fancycounterbyagbani.netlify.app"
-  }
+  },
+  {
+    title: "CorpComment",
+    description:
+      "Users can give public feedback to companies.",
+    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    imageUrl: "/corpcomment.png",
+    githubUrl: "https://github.com/agbaniongithub/corpcomment",
+    siteUrl: "https://corpcommentbyagbani.netlify.app"
+  },
   ]
 };
 export type SiteConfig = typeof siteConfig;
