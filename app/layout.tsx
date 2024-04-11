@@ -1,8 +1,11 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "@/styles/globals.css"
 import { Inter as FontSans } from "next/font/google"
 import { cn } from "@/lib/utils"
 import { SiteHeader } from "@/components/site-header";
+import Providers from "@/components/providers";
+import { siteConfig } from "@/config/site";
+import { SiteFooter } from "@/components/site-footer";
  
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -11,9 +14,17 @@ const fontSans = FontSans({
 
 
 export const metadata: Metadata = {
-  title: "Agbani.dev - Blog",
+  title: "David Agbaniyaka",
   description: "David Agbaniyaka's Blog",
+  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL ?? siteConfig.url)
 };
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "white"},
+    { media: "(prefers-color-scheme: dark)", color: "black"}
+  ]
+}
 
 export default function RootLayout({
   children,
@@ -28,12 +39,15 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <div className="relative flex min-h-dvh flex-col bg-background">
-          <SiteHeader />
-          <main className="flex-1">
-            {children}
-          </main>
-        </div>
+        <Providers>
+          <div className="relative flex min-h-dvh flex-col bg-background">
+            <SiteHeader />
+            <main className="flex-1">
+              {children}
+            </main>
+            <SiteFooter />
+          </div>
+        </Providers>
       </body>
     </html>
   );

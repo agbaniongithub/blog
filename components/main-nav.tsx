@@ -6,6 +6,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 
+
 export default function MainNav() {
   const pathname = usePathname();
   return (
@@ -13,6 +14,15 @@ export default function MainNav() {
       <Link href="/" className="mr-6 flex items-center space-x-2">
         <Icons.logo className="h-6 w-6" />
         <span className="font-bold">{siteConfig.name}</span>
+      </Link>
+      <Link
+        href="/projects"
+        className={cn(
+          "text-sm font-medium transition-colors hover:text-primary hidden sm:inline-block",
+          pathname === "/projects" ? "text-foreground" : "text-foreground/60"
+        )}
+      >
+        Projects
       </Link>
       <Link
         href="/blog"

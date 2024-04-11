@@ -6,6 +6,8 @@ import { Icons } from "./icons";
 import MainNav from "./main-nav";
 import { MobileNav } from "./mobile-nav";
 import { ModeToggle } from "./mode-toggle";
+import { Linkedin } from 'lucide-react';
+
 
 export function SiteHeader() {
   return (
@@ -30,7 +32,7 @@ export function SiteHeader() {
               </div>
             </Link>
             <Link
-              href={siteConfig.links.twitter}
+              href={siteConfig.links.linkedin}
               target="_blank"
               rel="noreferrer"
             >
@@ -40,8 +42,8 @@ export function SiteHeader() {
                   "w-10 px-0 hidden sm:inline-flex"
                 )}
               >
-                <Icons.twitter className="h-4 w-4" />
-                <span className="sr-only">Twitter</span>
+                <Linkedin />
+                <span className="sr-only">LinkedIn</span>
               </div>
             </Link>
             <ModeToggle />
