@@ -32,10 +32,10 @@ export default async function AboutPage() {
           </p>
         </div>
         <p className="text-muted-foreground text-lg py-4">
-        Hey there! 👋 I'm David, a passionate Software Engineer with a knack for building robust and interactive web applications. With a background in Information Technology, I've honed my skills in front-end development.
+        Hey there! 👋 I am David, a passionate Software Engineer with a knack for building robust and interactive web applications. With a background in Information Technology, I have honed my skills in front-end development.
         I love the challenge of translating complex designs into elegant, efficient code.
         Outside of coding, you can find me exploring the great outdoors, indulging in a good book or at the gym. I believe in the power of continuous growth, both personally and professionally.
-        If you're looking for a developer who is passionate, proactive, and ready to bring your ideas to life, I'd love to connect. Let's build something amazing together!</p>
+        If you are looking for a developer who is passionate, proactive, and ready to bring your ideas to life, I would love to connect. Let us build something amazing together!</p>
       </div>
     </div>
   );
