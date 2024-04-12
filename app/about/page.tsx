@@ -1,6 +1,15 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { siteConfig } from "@/config/site";
 import { Metadata } from "next";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
+import { Card, CardContent } from "@/components/ui/card";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "About David",
@@ -17,10 +26,10 @@ export default async function AboutPage() {
           </h1>
         </div>
       </div>
-      <hr className="my-8" />
+        <hr className="my-8" />
       <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
-        <div className="min-w-48 max-w-48 flex flex-col gap-2">
-          <Avatar className="h-48 w-48">
+        <div className="min-w-48 max-w-48 flex flex-col gap-2 items-center">
+          <Avatar className="h-24 w-20">
             <AvatarImage src="/david.jpg" alt={siteConfig.author} />
             <AvatarFallback>DA</AvatarFallback>
           </Avatar>
@@ -37,6 +46,33 @@ export default async function AboutPage() {
         Outside of coding, you can find me exploring the great outdoors, indulging in a good book or at the gym. I believe in the power of continuous growth, both personally and professionally.
         If you are looking for a developer who is passionate, proactive, and ready to bring your ideas to life, I would love to connect. Let us build something amazing together!</p>
       </div>
+
+      {/* <Carousel
+      opts={{
+        align: "start",
+      }}
+      className="w-full max-w-sm mx-auto"
+    >
+      <CarouselContent>
+          <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+            <Image src="/chess.png" alt="David Agbaniyaka" height={300} width={400}/>
+          </CarouselItem>
+          <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+            <div className="p-1">
+            <Image src="/water.png" alt="David Agbaniyaka" height={500} width={400}/>
+            </div>
+          </CarouselItem>
+          <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+            <div className="p-1">
+            <Image src="/gym.png" alt="David Agbaniyaka" height={400} width={400}/>
+            </div>
+          </CarouselItem>
+
+      </CarouselContent>
+      <CarouselPrevious />
+      <CarouselNext />
+    </Carousel> */}
+
     </div>
   );
 }

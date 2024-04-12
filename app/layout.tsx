@@ -12,14 +12,11 @@ const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
 })
-
-
 export const metadata: Metadata = {
   title: "David Agbaniyaka",
   description: "David Agbaniyaka's Blog",
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL ?? siteConfig.url)
 };
-
 export const viewport: Viewport = {
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white"},

@@ -8,7 +8,7 @@ import React from "react";
 export default function Project() {
 
   return (
-    <div className="container max-w-4xl py-6 lg:py-10 mx-auto flex items-center justify-center">
+    <div className="container max-w-4xl py-6 lg:py-10 flex items-center justify-center">
       <div className="flex flex-col items-start gap-4">
         <div className="flex-1 space-y-4">
           <h1 className="inline-block font-black text-4xl lg:text-5xl">Projects</h1>
@@ -16,12 +16,15 @@ export default function Project() {
             My contributions to the web.
           </p>
         </div>
+        
         {
           siteConfig.projectsArray.map((project, index) => (
             <React.Fragment key={index}>
+
               <div
       className="group mb-3 sm:mb-8 last:mb-0"
       >
+        
       <a href={project.siteUrl} target="_blank">
       <section className="bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
         <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
