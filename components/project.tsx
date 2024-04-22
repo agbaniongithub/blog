@@ -22,7 +22,7 @@ export default function Project() {
             <React.Fragment key={index}>
 
               <div
-      className="group mb-3 sm:mb-8 last:mb-0"
+      className="group mb-3 sm:mb-8 last:w-full"
       >
         
       <a href={project.siteUrl} target="_blank">
