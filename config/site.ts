@@ -19,10 +19,19 @@ export const siteConfig = {
   },
 
   projectsArray:  [{
+    title: "Space Tourism Website",
+    description:
+    "A challenging UI for a space exploration website. I was the FrontEnd Developer",
+    tags: ["HTML", "Tailwind CSS", "Next.JS"],
+    imageUrl: "/space-tourism.png",
+    githubUrl: "https://github.com/agbaniongithub/space-tourism-website",
+    siteUrl: "space-tourism-website-drab.vercel.app"
+  },
+  {
     title: "Word Analytics",
     description:
     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    tags: ["HTML", "CSS", "Javascript"],
     imageUrl: "/wordanalytics.png",
     githubUrl: "https://github.com/agbaniongithub/Word-Analytics",
     siteUrl: "https://wordanalyticsbyagbani.netlify.app"
@@ -39,7 +48,7 @@ export const siteConfig = {
     title: "CorpComment",
     description:
       "Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    tags: ["HMTL", "CSS", "Javascript", "Node.JS"],
     imageUrl: "/corpcomment.png",
     githubUrl: "https://github.com/agbaniongithub/corpcomment",
     siteUrl: "https://corpcommentbyagbani.netlify.app"
