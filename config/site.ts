@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "agbani.dev",
+  name: "David Agbaniyaka",
   url: "https://davidagba.com",
   description: "Project and Blog",
   author: "David Agbaniyaka",

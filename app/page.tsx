@@ -22,10 +22,10 @@ export default function Home() {
         <div className="container flex flex-col gap-4 text-center">
 
           <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-balance">
-            Hello, I&apos;m David
+            YOU WANT TO HIRE A PROFESSIONAL WEB DEVELOPER?
           </h1>
           <p className="max-w-[42rem] mx-auto text-muted-foreground sm:text-xl text-balance">
-            Welcome to my digital space. I&apos;m a Software Engineer.
+            MY NAME IS DAVID AND I'M A PROFESSIONAL WEB DEVELOPER
           </p>
           <div className="flex flex-col gap-4 justify-center md:flex-row">
             <Link
