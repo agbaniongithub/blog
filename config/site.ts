@@ -25,7 +25,7 @@ export const siteConfig = {
     tags: ["HTML", "Tailwind CSS", "Next.JS"],
     imageUrl: "/space-tourism.png",
     githubUrl: "https://github.com/agbaniongithub/space-tourism-website",
-    siteUrl: "space-tourism-website-drab.vercel.app"
+    siteUrl: "space-tourism-website.vercel.app"
   },
   {
     title: "Word Analytics",

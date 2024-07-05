@@ -25,7 +25,7 @@ export default function Home() {
             YOU WANT TO HIRE A PROFESSIONAL WEB DEVELOPER?
           </h1>
           <p className="max-w-[42rem] mx-auto text-muted-foreground sm:text-xl text-balance">
-            MY NAME IS DAVID AND I'M A PROFESSIONAL WEB DEVELOPER
+            MY NAME IS DAVID AND I&apos;M A PROFESSIONAL WEB DEVELOPER
           </p>
           <div className="flex flex-col gap-4 justify-center md:flex-row">
             <Link
