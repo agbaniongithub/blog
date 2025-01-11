@@ -15,15 +15,27 @@ export default function Home() {
   const latestPosts = sortPosts(posts).slice(0, 5);
   return (
     <>
-      <section className="space-y-6 min-h-screen flex justify-center items-center">
-        {/* <div className="relative flex justify-center items-center">
-          <Avatar className="h-24 w-20">
-            <AvatarImage src="/david.jpg" alt={siteConfig.author} />
-            <AvatarFallback>DA</AvatarFallback>
-          </Avatar>
+      <section className="space-y-6 min-h-screen flex justify-center items-center flex-col">
 
-        </div> */}
+      <div className="relative">
+            {/* Scrolling Logos */}
+            <div className="logos-scroller">
+              <div className="logos-track">
+                {siteConfig.logos.map((logo) => (
+                  <img
+                    key={logo}
+                    src={logo}
+                    alt="Logo"
+                    className="h-12 w-12 mx-4 opacity-60 hover:opacity-100 transition"
+                  />
+                ))}
+              </div>
+            </div>
+          </div>
+
         <div className="container flex flex-col gap-4 text-center">
+          
+       
 
           <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-balance">
             DAVID AGBANIYAKA
@@ -80,7 +92,7 @@ export default function Home() {
               LinkedIn
             </Link>
             <Link
-              href={siteConfig.links.linkedin}
+              href="/DAVID_AGBANIYAKA_CV_RESUME.pdf"
               target="_blank"
               rel="noreferrer"
               className={cn(

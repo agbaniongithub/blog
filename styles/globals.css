@@ -82,3 +82,26 @@
     color: #4caf50; /* Green color */
     text-align: center;
   }
+
+  .logos-scroller {
+    overflow: hidden;
+    position: relative;
+    height: 60px;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .logos-track {
+    display: flex;
+    animation: scroll 15s linear infinite;
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
