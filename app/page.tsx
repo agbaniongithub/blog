@@ -41,7 +41,9 @@ export default function Home() {
             DAVID AGBANIYAKA
           </h1>
           <p className="max-w-[42rem] mx-auto text-muted-foreground sm:text-xl text-balance">
-            I&apos;M A <div className="react-typed-wrapper">
+            I&apos;M A 
+          </p>
+          <div className="react-typed-wrapper">
   <ReactTyped
     strings={[
       "SOFTWARE ENGINEER",
@@ -55,7 +57,6 @@ export default function Home() {
     cursorChar="|"
   />
 </div>
-          </p>
           <div className="flex flex-col gap-4 justify-center md:flex-row">
             <Link
               href="/projects"
