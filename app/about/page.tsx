@@ -7,7 +7,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel"
+} from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 
@@ -26,7 +26,7 @@ export default async function AboutPage() {
           </h1>
         </div>
       </div>
-        <hr className="my-8" />
+      <hr className="my-8" />
       <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
         <div className="min-w-48 max-w-48 flex flex-col gap-2 items-center">
           <Avatar className="h-24 w-20">
@@ -41,9 +41,17 @@ export default async function AboutPage() {
           </p>
         </div>
         <p className="text-muted-foreground text-lg py-4">
-        Hello!👋. I'm David, a FullStack Developer with 4+ years of experience. FullStack Development is defined as building a fully functional website or application, both front end and back end, as a solo developer or as a team. 
-        Outside of coding, you can find me indulging in a good book or at the gym.
-        Looking for a passionate, proactive developer ready to bring your ideas to life? I would love to connect. Let us build something amazing together!</p>
+          Hi, I&apos;m David, a Full-Stack Developer with over 4 years of
+          experience building robust, scalable, and visually stunning websites
+          and applications. My expertise spans both the front-end and back-end,
+          enabling me to create seamless user experiences and efficient,
+          functional systems, whether I&apos;m working solo or as part of a
+          team. When I&apos;m not immersed in code, you&apos;ll likely find me
+          exploring the pages of a great book or pushing limits at the gym—both
+          fueling the creativity and discipline I bring to every project.
+          Looking for a dedicated developer to turn your ideas into reality?
+          Let&apos;s collaborate and create something extraordinary together.
+        </p>
       </div>
 
       {/* <Carousel
@@ -71,7 +79,6 @@ export default async function AboutPage() {
       <CarouselPrevious />
       <CarouselNext />
     </Carousel> */}
-
     </div>
   );
 }
