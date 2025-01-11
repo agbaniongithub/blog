@@ -15,7 +15,7 @@ const fontSans = FontSans({
 })
 export const metadata: Metadata = {
   title: "David Agbaniyaka",
-  description: "David Agbaniyaka's Blog",
+  description: "David Agbaniyaka",
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL ?? siteConfig.url)
 };
 export const viewport: Viewport = {

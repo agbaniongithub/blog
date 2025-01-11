@@ -41,10 +41,9 @@ export default async function AboutPage() {
           </p>
         </div>
         <p className="text-muted-foreground text-lg py-4">
-        Hey there! 👋 I am David, a passionate Software Engineer with a knack for building robust and interactive web applications. With a background in Information Technology, I have honed my skills in front-end development.
-        I love the challenge of translating complex designs into elegant, efficient code.
-        Outside of coding, you can find me exploring the great outdoors, indulging in a good book or at the gym. I believe in the power of continuous growth, both personally and professionally.
-        If you are looking for a developer who is passionate, proactive, and ready to bring your ideas to life, I would love to connect. Let us build something amazing together!</p>
+        Hello!👋. I'm David, a FullStack Developer with 4+ years of experience. FullStack Development is defined as building a fully functional website or application, both front end and back end, as a solo developer or as a team. 
+        Outside of coding, you can find me indulging in a good book or at the gym.
+        Looking for a passionate, proactive developer ready to bring your ideas to life? I would love to connect. Let us build something amazing together!</p>
       </div>
 
       {/* <Carousel
