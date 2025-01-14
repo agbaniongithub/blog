@@ -22,12 +22,12 @@ export const siteConfig = {
     'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg',
     'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain-wordmark.svg',
     'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg',
+    'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg',
     'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg',
-    'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg',
     'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg',
+    'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg',
+    'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg',
     'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-plain-wordmark.svg',
-    'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg',
-    'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-plain-wordmark.svg'
 
   ]
   ,
@@ -40,7 +40,7 @@ export const siteConfig = {
       tags: ["Next.JS", "Tailwind CSS"],
       imageUrl: "/space-tourism.png",
       githubUrl: "https://github.com/agbaniongithub/space-tourism-website",
-      siteUrl: "space-tourism-website.vercel.app"
+      siteUrl: "space-tourism-website-drab.vercel.app"
     },
     {
       title: "Word Analytics",
